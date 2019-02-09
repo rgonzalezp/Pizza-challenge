@@ -12,6 +12,14 @@
 		117A415D220E056F004C331C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117A415B220E056F004C331C /* Main.storyboard */; };
 		117A415F220E0571004C331C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117A415E220E0571004C331C /* Assets.xcassets */; };
 		117A4162220E0571004C331C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 117A4160220E0571004C331C /* LaunchScreen.storyboard */; };
+		117A416A220F2B94004C331C /* SizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A4169220F2B94004C331C /* SizeViewController.swift */; };
+		117A416C220F37E0004C331C /* DoughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A416B220F37E0004C331C /* DoughViewController.swift */; };
+		117A416E220F38EB004C331C /* CheeseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A416D220F38EB004C331C /* CheeseViewController.swift */; };
+		117A4172220F3DA4004C331C /* TableViewControllerIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A4171220F3DA4004C331C /* TableViewControllerIngredients.swift */; };
+		117A417A220F404E004C331C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A4179220F404E004C331C /* Model.swift */; };
+		117A417E220F4095004C331C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A417D220F4095004C331C /* ViewModel.swift */; };
+		117A4187220F467F004C331C /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 117A4185220F467F004C331C /* CustomCell.swift */; };
+		117A4188220F467F004C331C /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117A4186220F467F004C331C /* CustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		117A415E220E0571004C331C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		117A4161220E0571004C331C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		117A4163220E0571004C331C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		117A4169220F2B94004C331C /* SizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeViewController.swift; sourceTree = "<group>"; };
+		117A416B220F37E0004C331C /* DoughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughViewController.swift; sourceTree = "<group>"; };
+		117A416D220F38EB004C331C /* CheeseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseViewController.swift; sourceTree = "<group>"; };
+		117A4171220F3DA4004C331C /* TableViewControllerIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerIngredients.swift; sourceTree = "<group>"; };
+		117A4179220F404E004C331C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		117A417D220F4095004C331C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		117A4185220F467F004C331C /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		117A4186220F467F004C331C /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				117A415E220E0571004C331C /* Assets.xcassets */,
 				117A4160220E0571004C331C /* LaunchScreen.storyboard */,
 				117A4163220E0571004C331C /* Info.plist */,
+				117A4169220F2B94004C331C /* SizeViewController.swift */,
+				117A416B220F37E0004C331C /* DoughViewController.swift */,
+				117A416D220F38EB004C331C /* CheeseViewController.swift */,
+				117A4171220F3DA4004C331C /* TableViewControllerIngredients.swift */,
+				117A4179220F404E004C331C /* Model.swift */,
+				117A417D220F4095004C331C /* ViewModel.swift */,
+				117A4185220F467F004C331C /* CustomCell.swift */,
+				117A4186220F467F004C331C /* CustomCell.xib */,
 			);
 			path = Pizzas;
 			sourceTree = "<group>";
@@ -124,6 +148,7 @@
 			files = (
 				117A4162220E0571004C331C /* LaunchScreen.storyboard in Resources */,
 				117A415F220E0571004C331C /* Assets.xcassets in Resources */,
+				117A4188220F467F004C331C /* CustomCell.xib in Resources */,
 				117A415D220E056F004C331C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +160,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117A417E220F4095004C331C /* ViewModel.swift in Sources */,
 				117A415A220E056F004C331C /* ViewController.swift in Sources */,
+				117A416E220F38EB004C331C /* CheeseViewController.swift in Sources */,
+				117A416A220F2B94004C331C /* SizeViewController.swift in Sources */,
+				117A4187220F467F004C331C /* CustomCell.swift in Sources */,
+				117A416C220F37E0004C331C /* DoughViewController.swift in Sources */,
+				117A4172220F3DA4004C331C /* TableViewControllerIngredients.swift in Sources */,
 				117A4158220E056F004C331C /* AppDelegate.swift in Sources */,
+				117A417A220F404E004C331C /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
